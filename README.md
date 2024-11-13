@@ -89,7 +89,7 @@ Here is what you need to be able to run JSON Crack.
 1. Clone the repo into a public GitHub repository (or fork https://github.com/AykutSarac/jsoncrack.com/fork). If you plan to distribute the code, read the [`LICENSE`](/LICENSE) for additional details.
 
    ```sh
-   git clone https://github.com/AykutSarac/jsoncrack.com.git
+   git clone https://github.com/usneil/jsoncrack.git
    ```
 
 2. Go to the project folder
