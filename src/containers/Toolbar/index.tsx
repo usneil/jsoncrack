@@ -86,7 +86,7 @@ export const Toolbar = ({ isWidget = false }: ToolbarProps) => {
       )}
       <Group gap="xs" justify="right" w="100%" style={{ flexWrap: "nowrap" }}>
         {!isWidget && (
-          <StyledToolElement onClick={() => setVisible("upgrade")(true)} $highlight>
+          <StyledToolElement onClick={() => setVisible("upgrade")(false)} $highlight>
             <Flex align="center" gap="6">
               <LuCrown size="16" />
               <Text c="bright" fw={600} fz="xs">

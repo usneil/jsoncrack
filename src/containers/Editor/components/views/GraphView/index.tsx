@@ -11,7 +11,7 @@ import useGraph from "src/containers/Editor/components/views/GraphView/stores/us
 import useToggleHide from "src/hooks/useToggleHide";
 import useConfig from "src/store/useConfig";
 import { CustomEdge } from "./CustomEdge";
-import { NotSupported } from "./NotSupported";
+//import { NotSupported } from "./NotSupported";
 
 const StyledEditorWrapper = styled.div<{ $widget: boolean; $showRulers: boolean }>`
   position: absolute;
@@ -165,9 +165,9 @@ export const GraphView = ({ isWidget = false }: GraphProps) => {
     setViewPort(viewPort!);
   }, 300);
 
-  if (aboveSupportedLimit) {
-    return <NotSupported />;
-  }
+  //if (aboveSupportedLimit) {
+  //  return <NotSupported />;
+  //}
 
   return (
     <>
