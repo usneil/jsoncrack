@@ -194,3 +194,4 @@ export const GraphView = ({ isWidget = false }: GraphProps) => {
     </>
   );
 };
+
