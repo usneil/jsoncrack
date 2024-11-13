@@ -11,6 +11,7 @@ import useGraph from "src/containers/Editor/components/views/GraphView/stores/us
 import useToggleHide from "src/hooks/useToggleHide";
 import useConfig from "src/store/useConfig";
 import { CustomEdge } from "./CustomEdge";
+
 //import { NotSupported } from "./NotSupported";
 
 const StyledEditorWrapper = styled.div<{ $widget: boolean; $showRulers: boolean }>`
@@ -194,4 +195,3 @@ export const GraphView = ({ isWidget = false }: GraphProps) => {
     </>
   );
 };
-
